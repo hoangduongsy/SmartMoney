@@ -1,9 +1,9 @@
 a {
   &:hover {
     text-decoration: none;
-    color:  black;
+    color:  white;
   }
-  color: black;
+  color: white;
 }
 
 ul, ol, p {
@@ -11,6 +11,7 @@ ul, ol, p {
   margin: 0;
   li {
     list-style: none;
+    color: white;
   }
 }
 
@@ -30,5 +31,6 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
